@@ -1,0 +1,21 @@
+import java.util.Scanner;//write a program to seprate the digits of given no.
+class Seprateno 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+
+		System.out.print("enter first no  ");
+		int a=sc.nextInt();
+
+		while(a>0)//5678
+
+		{
+			int digit=a%10;//5678%10=8
+			System.out.print(digit+"  ");
+
+			a=a/10;//5678/10=567
+
+		}
+	}
+}

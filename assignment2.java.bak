@@ -1,0 +1,10 @@
+//print the palindrom numbers from the given array
+//waptd count the palindrom numbers from the given arrat and check the count is palindrom or not
+//waptd count the no. of digits of each index check the count is even or odd
+class  
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

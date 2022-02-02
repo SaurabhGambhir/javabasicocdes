@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Square
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+
+		System.out.println("enter no  ");
+		int num=sc.nextInt();
+
+		long square= num*num;
+
+		System.out.println("square of the no is"+square);
+	}
+}

@@ -1,0 +1,23 @@
+class Ypattern 
+{
+	public static void main(String[] args) 
+	{
+        int num=9;
+         for (int row=0; row<num; row++  )
+         {
+             for (int col=0; col<num; col++ )
+             {
+                  if (row==col && row<=num/2 || i+j==num-1 && j>=num/2 || i>num/2 && j==num/2)
+                  {
+                     System.out.println("* ");  
+                  }
+                  else
+                  {
+					System.out.println(" ");
+                  }
+             }
+          System.out.println();
+         }
+		
+	}
+}

@@ -1,0 +1,28 @@
+import java.util.Scanner;
+class Power 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+
+		System.out.print("enter first no  ");
+		int num=sc.nextInt();
+                                              //scanner and initialization and declaration
+		System.out.print("enter second no  ");
+		int power=sc.nextInt();
+
+		
+	    int result=1;
+
+		while(power>=0)
+		{
+			result=result*num;
+			power--;
+
+		}
+		System.out.print(result);
+	}
+	
+	}
+
+

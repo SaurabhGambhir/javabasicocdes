@@ -1,0 +1,29 @@
+import java.util.Scanner;//find the sum of digits present in a given no 
+class Sumofdigits 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+
+		System.out.print("enter first no  ");
+		int a=sc.nextInt();
+		int sum=0;
+		
+		while(a>0)//1234
+
+		{
+			int digit=a%10;//1234%10-->123
+			System.out.println(digit);
+
+			a=a/10;
+
+           
+				 sum=sum+digit;
+				
+        }
+		System.out.println(sum);
+		
+		
+	}
+}
+//find the sum of digits present in a given no 

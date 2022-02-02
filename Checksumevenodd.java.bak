@@ -1,0 +1,51 @@
+//find the sum of digits from the user given value and 
+//check the sum is even or odd if it is odd check it is divisible of 3 or not
+import java.util.Scanner;
+class Checksumevenodd 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+
+		System.out.println("enter first no  ");
+		int a=sc.nextInt();
+
+		int sum=0;
+         
+		 while(a>0)
+		{
+		  int digit	=a%10;
+		  System.out.println(digit);
+
+		  a=a/10;
+
+		  sum=sum+digit;
+        }
+		System.out.println(sum);
+		if (sum%2==0)
+		{
+             System.out.println(sum+"sum is even");
+		}
+		else
+		{
+			System.out.println(sum+"sum is odd");
+
+			if (sum%3==0)
+			{
+				System.out.println(sum+"sum is divisible by 3");
+			}
+
+			else
+				{
+				
+                System.out.println(sum+"sum is not divisible by 3");
+			}
+
+		}
+	}
+}
+
+
+
+
+

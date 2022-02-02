@@ -1,0 +1,27 @@
+//take values from user and print array
+import java.util.Scanner;
+class arrayscanner  
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+
+		System.out.println("enter the size");
+		int size=sc.nextInt();
+
+		int a[]=new int [size];
+
+		for (int i=0; i<size; i++ )
+		{
+			System.out.println("Enter the value in "+i+"index");
+			a[i]=sc.nextInt();
+		}
+
+		System.out.println("values of array\n");
+
+		for (int i=0;i<size ;i++ )
+		{
+            System.out.println(a[i]);
+		}
+	}
+}

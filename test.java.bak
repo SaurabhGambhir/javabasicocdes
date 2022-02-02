@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class primenoingivenrange
+{
+	public static void main(String [] args)
+	{
+    	Scanner sc=new Scanner (System.in);
+
+		System.out.println("enter first no");
+			int a=sc.nextInt();
+
+			System.out.println("enter first no");
+			int z=sc.nextInt();
+           
+			 if (a<=2)
+			 {
+				 System.out.println(2);
+			     System.out.println(3);
+			 }
+
+			 if (a<=3 && a>2)
+			 {
+				 System.out.println(3);
+			 }
+            
+			for (i=1; i<=50; i++ )
+			{
+               System.out.println((6i+1)+"is prime no"); 
+			   System.out.println((6i-1)+"is prime no"); 
+			}
+	}
+}
+    
+    

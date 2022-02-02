@@ -1,0 +1,58 @@
+//count the prime no from user given range and check the count is prime or not by using method.
+//waptd count the prime no from given array and check the count is prime or not byn using methods.
+
+class methodprimeno 
+{
+	public static void main(String[] args) 
+	{
+
+		System.out.println("Hello World!");
+	}
+
+
+     public static int prime(int a)
+     {
+	
+		Scanner sc=new Scanner(System.in);
+
+		System.out.println(" Enter First no  ");
+		int start=sc.nextInt();//3
+
+		System.out.println(" Enter Second  no  ");
+		int stop=sc.nextInt();//10
+               //3<=10
+		while (start<=stop)
+		{
+
+            int i=2;
+
+			while (start>=i)//3>=2--->true
+			{
+		
+			   if (start%i==0)//
+			  {
+				break;//
+			  }
+			
+			    i++;//
+
+		    }
+
+		  
+           
+           if (start==i)
+           {
+			   System.out.println(start+" is prime number ");
+           }
+
+		   else
+			{
+				System.out.println(start+" is not a prime number ");
+			}
+		    start++;
+
+        }
+
+	}
+
+}
